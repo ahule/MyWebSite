@@ -1,0 +1,232 @@
+.font-page{
+    background-color: #0c0c0c;
+    width: 100%;
+    height: calc(100vh - 70px);
+    direction: rtl;
+}
+.font-sec{
+    height: calc(100vh - 70px);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.font-page h1{
+    /* font-size: 65px; */
+    font-size: 4rem;
+    font-weight: bold;
+}
+.font-contact-container, .social-container ul{
+    display: flex;
+    align-items: center;
+}
+.social-container img{
+    filter: invert(100%);
+}
+.font-contact-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font-contact-div a{
+    border-radius: 40px;
+    background-color: rgb(0, 153, 255);
+    transition: all 300ms;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.font-contact-container hr{
+    height: 2px;
+    width: 100px;
+    border: none;
+    margin: 0 10px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ////////////////////////////////////////// */
+/* النسخة التجريبية */
+.freedom, .freedom h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* النسخة التجريبية */
+/* ///////////////////////////////////////// */
+
+
+
+
+.social-container, .social-container ul, .social-container ul li, .social-container ul li a{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.social-container ul{
+    gap: 7px;
+}
+.font-contact-div a:hover{
+    background-color: rgb(1, 108, 179);
+}
+/* sections */
+.about-us{
+    background-color: rgb(6, 11, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 8rem 0; */
+}
+.our-info ul{
+  display: flex;
+  grid-gap: 150px;
+  background-color: #00796b;
+  border: 1px solid #595757;
+  border-radius: 6px;
+  padding: 2.5rem;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our-info ul, .our-info li{
+    direction: rtl;
+}
+.container-info{
+  max-width: 1320px;
+  margin: 200px 20px;
+}
+.who-us{
+  direction: rtl;
+  align-items: center;
+}
+.who-us h2{
+  font-size: 2.3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.who-us p{
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: right !important;
+  display: flex;
+  justify-content: center;
+}
+.our-info ul h3{
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+.our-info ul p{
+    font-size: 1.7rem;
+}
+/* next section */
+.container-work a{
+  padding: 9px 10px 9px 10px;
+  border-radius: 40px;
+  border: 1px solid rgb(0, 153, 255);
+  /* background-color: transparent; */
+  color: rgb(0, 153, 255);
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.4s;
+  background-image: url(../icons/paper.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-work a:hover{
+    background-image: none;
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+.our-work{
+    background-color: rgb(7, 11, 22);
+    height: 724px;
+    padding: 8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../icons/html.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid rgb(0, 153, 255);
+    /* width: 40%; */
+    border-radius: 20px;
+    /* height: 500px; */
+    margin: 0 20px;
+    /* width: 500px; */
+}
+.container-work-two h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 153, 255);
+}
+.work-link{
+    width: 129.05px;
+    display: flex;
+    justify-content: center;
+}
+/* end for section */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media (max-width:500px) {
+    .font-contact-container{
+      display: block;
+    }
+    .font-contact-container hr{
+      display: none
+    }
+    .social-container{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+}
+@media (max-width:450px) {
+    .font-container h1{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .font-container{
+        width: 100%;
+    }
+}
+@media (max-width:275px){
+  .font-container h1{
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+  }
+  .font-container{
+      width: 100%;
+  }
+}
+@media (max-width:209px){
+  .font-container h1{
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+  }
+  .font-container{
+      width: 100%;
+  }
+}
